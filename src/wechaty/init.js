@@ -18,7 +18,7 @@ module.exports = function init() {
         [
           'Access the URL to login: ' +
             chalk.cyan(
-              `http://localhost:${PORT}/login?token=${Service.getLoginApiToken()}`,
+              `http://0.0.0.0:${PORT}/login?token=${Service.getLoginApiToken()}`,
             ),
         ].join('\n'),
       ),
